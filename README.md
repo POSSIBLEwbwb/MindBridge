@@ -98,6 +98,7 @@ $env:DASHSCOPE_API_KEY="your_dashscope_api_key"
 | 类型 | 入口 |
 | --- | --- |
 | 架构设计 | [docs/architecture/overview.md](docs/architecture/overview.md) |
+| 项目实战沉淀 | [docs/product-practice/README.md](docs/product-practice/README.md) |
 | 本地启动 | [docs/getting-started.md](docs/getting-started.md) |
 | 模块说明 | [docs/modules/README.md](docs/modules/README.md) |
 | 配置说明 | [docs/operations/configuration.md](docs/operations/configuration.md) |

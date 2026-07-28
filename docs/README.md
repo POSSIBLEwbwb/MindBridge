@@ -7,6 +7,7 @@
 | 目录 | 内容 |
 | --- | --- |
 | [architecture](architecture/overview.md) | 项目架构和 RAG 链路设计 |
+| [product-practice](product-practice/README.md) | 项目实战沉淀、产品问题和迭代思路 |
 | [modules](modules/README.md) | Maven 子模块说明 |
 | [operations](operations/configuration.md) | 配置、环境变量和依赖服务 |
 | [evaluation](evaluation/README.md) | RAG 效果评测和 bad case 优化 |
