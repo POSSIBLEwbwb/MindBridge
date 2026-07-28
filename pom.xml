@@ -12,12 +12,12 @@
 	</parent>
 
 	<groupId>cn.cy.llm</groupId>
-	<artifactId>llmentor</artifactId>
+	<artifactId>auto-service-rag-assistant</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>llmentor</name>
-	<description>llmentor parent project</description>
+	<name>auto-service-rag-assistant</name>
+	<description>Multi-source RAG assistant for automotive service scenarios</description>
 
 	<properties>
 		<java.version>21</java.version>
