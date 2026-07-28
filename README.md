@@ -1,6 +1,8 @@
-# 面向汽车服务场景的多源 RAG 智能客服系统
+# MindBridge：面向汽车服务场景的多源 RAG 智能客服系统
 
 一个基于 Java / Spring AI 的 AI 应用开发项目，面向汽车客服、售后支持、技术问答和业务数据查询场景，展示从大模型调用、Function Call、文档处理、向量化到 RAG 检索增强生成的完整工程链路。
+
+> MindBridge 不只展示最终代码，还保留了从文档解析、中文召回、Query 重写、RRF 融合到分层拒答的 10 个产品迭代节点。每个节点都有对应分支和问题复盘，便于追踪“为什么改、怎么改、带来什么价值”。
 
 ## 项目亮点
 
@@ -9,6 +11,18 @@
 - **RAG 工程链路**：覆盖文档读取、清洗、分段、Embedding、向量存储和检索。
 - **Function Call 实践**：模拟客服场景下大模型主动调用后端工具。
 - **产品迭代记录**：沉淀 Query 重写、RRF 融合、minScore、分层拒答等 RAG bad case 优化过程。
+
+## 原创性与迭代证据
+
+项目的原创性不依赖口号，而由可核验的工程资产共同体现：
+
+- **自主拆解的业务链路**：围绕汽车服务场景，将知识库问答、订单/保险等结构化查询和 Function Call 分开建模。
+- **问题驱动的 10 次迭代**：`product/v01-*` 至 `product/v10-*` 分支分别对应真实 bad case 与解决思路。
+- **前后对照实验**：`case/rrf-fusion-before` 与 `case/rrf-fusion-after` 保留 RRF 融合优化前后的实现差异。
+- **决策过程可追踪**：文档记录分段、混合检索、minScore、异步处理、幂等等关键取舍，而不只给出最终结论。
+- **代码与文档互相印证**：文档读取策略、文本清洗、重叠分段、Embedding、工具调用均有对应 Java 实现。
+
+详细证据索引见：[原创性与演进说明](docs/originality-and-evolution.md)。
 
 ## 架构概览
 
@@ -105,6 +119,7 @@ $env:DASHSCOPE_API_KEY="your_dashscope_api_key"
 | 配置说明 | [docs/operations/configuration.md](docs/operations/configuration.md) |
 | RAG 评测与优化 | [docs/evaluation/README.md](docs/evaluation/README.md) |
 | 产品迭代路线图 | [docs/roadmap/product-iteration.md](docs/roadmap/product-iteration.md) |
+| 原创性与演进证据 | [docs/originality-and-evolution.md](docs/originality-and-evolution.md) |
 | 问题解决记录 | [docs/problem-solutions/README.md](docs/problem-solutions/README.md) |
 | 仓库结构设计 | [docs/repository-structure.md](docs/repository-structure.md) |
 | 贡献说明 | [CONTRIBUTING.md](CONTRIBUTING.md) |
