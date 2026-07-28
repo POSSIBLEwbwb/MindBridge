@@ -1,0 +1,17 @@
+target/
+.m2/
+.tools/
+.idea/
+.vscode/
+*.iml
+data/
+logs/
+.DS_Store
+*.log
+__MACOSX/
+*.zip
+*.gguf
+*.gguf.*
+.env
+.env.*
+!.env.example
