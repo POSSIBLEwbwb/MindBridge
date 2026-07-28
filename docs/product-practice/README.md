@@ -12,7 +12,6 @@
 | [end-to-end-flow.md](end-to-end-flow.md) | 从上传文档到最终回答的完整链路 |
 | [iteration-plan.md](iteration-plan.md) | 产品迭代路线：从 MVP 到效果优化 |
 | [engineering-decisions.md](engineering-decisions.md) | 关键工程设计取舍 |
-| [interview-script.md](interview-script.md) | 面试时的项目讲述逐字稿 |
 | [course-content-map.md](course-content-map.md) | 项目实战内容到仓库文档的映射 |
 
 ## 项目实战目录抽象

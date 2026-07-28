@@ -30,10 +30,10 @@
 | bad case 优化 | [问题解决记录](../problem-solutions/README.md) |
 | Query 重写、RRF、minScore、分层拒答 | [产品迭代路线](iteration-plan.md) |
 
-## 面试表达类
+## 表达材料类
 
 | 项目实战内容 | 仓库文档 |
 | --- | --- |
-| 完整项目讲述 | [面试逐字稿](interview-script.md) |
+| 完整项目讲述 | [面试表达统一稿](../interview.md) |
 | 产品解决的问题 | [产品定位](product-brief.md) |
 | 从 MVP 到优化版的迭代思路 | [产品迭代路线](iteration-plan.md) |

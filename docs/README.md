@@ -6,6 +6,7 @@
 
 | 目录 | 内容 |
 | --- | --- |
+| [interview.md](interview.md) | 面试表达统一稿 |
 | [architecture](architecture/overview.md) | 项目架构和 RAG 链路设计 |
 | [product-practice](product-practice/README.md) | 项目实战沉淀、产品问题和迭代思路 |
 | [modules](modules/README.md) | Maven 子模块说明 |

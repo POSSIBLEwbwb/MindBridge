@@ -99,6 +99,7 @@ $env:DASHSCOPE_API_KEY="your_dashscope_api_key"
 | --- | --- |
 | 架构设计 | [docs/architecture/overview.md](docs/architecture/overview.md) |
 | 项目实战沉淀 | [docs/product-practice/README.md](docs/product-practice/README.md) |
+| 面试表达统一稿 | [docs/interview.md](docs/interview.md) |
 | 本地启动 | [docs/getting-started.md](docs/getting-started.md) |
 | 模块说明 | [docs/modules/README.md](docs/modules/README.md) |
 | 配置说明 | [docs/operations/configuration.md](docs/operations/configuration.md) |
@@ -127,12 +128,6 @@ $env:DASHSCOPE_API_KEY="your_dashscope_api_key"
 ├── pom.xml                  # Maven 父工程
 └── README.md
 ```
-
-## 面试表达
-
-可以用一句话介绍：
-
-> 这是一个面向汽车服务场景的多源 RAG 智能客服系统，我主要用它展示 AI 应用开发里从文档处理、检索、重排、生成，到工具调用和效果优化的完整工程能力。
 
 ## 参考项目结构
 
