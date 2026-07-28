@@ -1,8 +1,8 @@
 # 项目实战沉淀
 
-这个目录用于把“项目实战2（Know Engine）”中的内容沉淀成 GitHub 上可读的项目说明。
+这个目录用于沉淀项目从需求定位、链路设计到效果优化的完整实践说明。
 
-重点不是复述课程目录，而是把它整理成一个产品从 0 到 1 的演进故事：系统解决什么问题、为什么这么设计、每一轮迭代解决了哪些 bad case。
+重点不是堆功能清单，而是讲清楚一个产品从 0 到 1 的演进故事：系统解决什么问题、为什么这么设计、每一轮迭代解决了哪些 bad case。
 
 ## 内容导航
 
@@ -12,11 +12,11 @@
 | [end-to-end-flow.md](end-to-end-flow.md) | 从上传文档到最终回答的完整链路 |
 | [iteration-plan.md](iteration-plan.md) | 产品迭代路线：从 MVP 到效果优化 |
 | [engineering-decisions.md](engineering-decisions.md) | 关键工程设计取舍 |
-| [course-content-map.md](course-content-map.md) | 项目实战内容到仓库文档的映射 |
+| [practice-map.md](practice-map.md) | 产品能力和文档之间的关系 |
 
-## 项目实战目录抽象
+## 项目实践抽象
 
-项目实战内容可以归纳成四条主线：
+项目实践可以归纳成四条主线：
 
 1. 文档进入系统：上传、存储、解析、切分、向量化。
 2. 问题进入系统：意图识别、Query 改写、数据源路由。

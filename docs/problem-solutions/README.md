@@ -10,7 +10,7 @@
 | 中文分词不准确导致召回效果差 | [chinese-tokenization.md](./chinese-tokenization.md) |
 | 问题重写导致召回不准 | [query-rewrite-noise.md](./query-rewrite-noise.md) |
 | RRF 融合结果乱序和重复 | [rrf-fusion-dedup.md](./rrf-fusion-dedup.md) |
-| 引用信息补全导致参考资料乱序 | [reference-order.md](./reference-order.md) |
+| 引用信息补全导致材料顺序错乱 | [reference-order.md](./reference-order.md) |
 | 通过 minScore 解决召回准确率低 | [minscore-recall.md](./minscore-recall.md) |
 | 通过系统提示词提升答案正确性 | [system-prompt-answer-quality.md](./system-prompt-answer-quality.md) |
 | 通过修改 ground truth 解决评测偏差 | [ground-truth-calibration.md](./ground-truth-calibration.md) |

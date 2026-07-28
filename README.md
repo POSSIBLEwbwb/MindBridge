@@ -129,10 +129,6 @@ $env:DASHSCOPE_API_KEY="your_dashscope_api_key"
 └── README.md
 ```
 
-## 参考项目结构
+## 仓库组织思路
 
-本仓库结构参考了几个高星 AI / RAG 项目的组织方式：主 README 负责项目门面，`docs/` 承载深入文档，示例模块保持可运行，问题优化记录独立沉淀。
-
-- [RAGFlow](https://github.com/infiniflow/ragflow)
-- [LangChain4j Examples](https://github.com/langchain4j/langchain4j-examples)
-- [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques)
+本仓库按照“项目可运行、文档可阅读、迭代可追踪”的原则组织：根目录保留工程入口，`docs/` 承载架构、模块、评测和问题复盘，示例模块保持独立可启动，方便读者从项目价值一路看到具体实现。
