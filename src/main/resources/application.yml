@@ -80,6 +80,8 @@ management:
   health:
     mail:
       enabled: false
+    redis:
+      enabled: ${REDIS_HEALTH_ENABLED:false}
   endpoints:
     web:
       exposure:

@@ -4,6 +4,10 @@ MindBridge 是一个面向校园心理支持场景的安全型多 Agent 系统�
 
 > 项目定位：心理支持与校园资源引导，不替代专业诊断、治疗或紧急救援。
 
+## 项目界面
+
+![MindBridge 校园心理支持智能体界面](docs/images/mindbridge-web.png)
+
 ## 项目特色
 
 - 动态路由 RAG：先识别 `CHAT / CONSULT / RISK`，闲聊不查知识库，咨询与风险消息才进入检索增强。
